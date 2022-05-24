@@ -1,5 +1,8 @@
 const readlineSync = require("readline-sync");
-var x = 5;
-var y = 6;
-var z = x + y;
+
+let x = 5;
+let y = 6;
+let z = x + y;
+let name = ('Melih');
 console.log(z);
+console.log(name);
