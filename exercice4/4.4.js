@@ -26,15 +26,14 @@ function average(tab){
 }
 
 function min(tab){
-    let min = Math.min( ...tab );
-    
-    return min      
+    return min  = Math.min( ...tab );
+
 }
 
 function max(tab){
-    let max = Math.max( ...tab );
+    return max= Math.max( ...tab );
     
-    return max
+    
 }
 const maxRandom= new Number(readlineSync.question("Quelle est la valeur max des nombres aléatoires ? "));
 const nombreVariable= new Number(readlineSync.question("Combien de nombre voulez vous dans le tableau ? "));
