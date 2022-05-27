@@ -6,14 +6,12 @@ let floor = 0;
 
 
 function elevator(left, right, current){
-    if(Math.abs(left - current)<Math.abs(right - current)){
+    if(Math.abs(left - current) < Math.abs(right - current)){
         return "gauche";
     }  
     else {
         return "droite"
-     
     }
-
 }
 
  leftElevator= new Number(readlineSync.question("A quel étage se situe l'ascenceur de gauche ? "));

@@ -1,6 +1,2 @@
-const readlineSync = require("readline-sync");
-
-var firstName ='Akar';
-var name = 'Melih';
-var city = 'Liège';
-console.log('Your name is ' + name + ' ' + firstName + ' and you live in ' + city + ' !');
+const firstName = 'Akar', name1 = 'Melih' ,city = 'Liège';
+console.log(`Your name is ${name1} ${firstName} and you live in ${city} !`);

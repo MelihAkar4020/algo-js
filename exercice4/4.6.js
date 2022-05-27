@@ -3,13 +3,14 @@ const readlineSync = require("readline-sync");
 
 function factorielle(a){
     let i, f = 1;
-    
-    for(i=1;i<=a;i++){
 
-        f =  i * f
+    if (a === 0)
+    {
+       return 1;
     }
-    return f
-}
+    return a * factorielle(a-1);
+  }
+
 
 const valeurF= new Number(readlineSync.question("la valeur factorielle de quelle nombre souhaiter vous avoir ? "));
 console.log("La valeur factorielle de " + valeurF + " est " + factorielle(valeurF));

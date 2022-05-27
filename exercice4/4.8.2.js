@@ -6,17 +6,6 @@ let tempsClients = [];
 
 
 
-
-
-
-function sumTab(tab){
-    for (let i = 0; i < tab.length; i++) {
-        sum += tab[i];
-    }
-    return sum
-}
-
-
 function tempsAttente(tempsClients, nombreCaisse, ncaisse) {
     let sum = 0 ;
     let min = 0;
