@@ -1,4 +1,2 @@
-const readlineSync = require("readline-sync");
-let userName = readlineSync.question('Can you give me your name please ? ');
-console.log("Hello " + userName);
-console.log("It works !!!");
+let ncaisse = [2,5,1,5,2,1,8,7]
+console.log(Math.min(... ncaisse));

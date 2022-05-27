@@ -7,11 +7,8 @@ function factorielle(a){
     for(i=1;i<=a;i++){
 
         f =  i * f
-
-
     }
     return f
-
 }
 
 const valeurF= new Number(readlineSync.question("la valeur factorielle de quelle nombre souhaiter vous avoir ? "));
